@@ -1,0 +1,20 @@
+{
+  "image": "mtaleksa/zsh-dev:node-17-alpine",
+  "forwardPorts": [3000],
+  "extensions": [
+    "rbbit.typescript-hero",
+    "dskwrk.vscode-generate-getter-setter",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-next",
+    "leizongmin.node-module-intellisense",
+    "christian-kohler.path-intellisense",
+    "eamodio.gitlens",
+    "github.copilot",
+    "k--kato.intellij-idea-keybindings",
+    "coenraads.bracket-pair-colorizer-2",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
