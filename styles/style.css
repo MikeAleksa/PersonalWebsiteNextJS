@@ -26,6 +26,10 @@ html {
 /*        LAYOUT         *
  * * * * * * * * * * * * */
 
+html {
+  scroll-snap-type: y mandatory;
+}
+
 .main {
   min-height: 100vh;
   flex: 1;
@@ -44,6 +48,7 @@ html {
   width: 100%;
   margin: 0 auto;
   padding: 4rem 2rem;
+  scroll-snap-align: start;
 }
 
 .center {
@@ -60,6 +65,7 @@ html {
   margin: 0 auto;
   padding: 2rem 0;
   border-top: 0.5px solid var(--secondary-bg);
+  scroll-snap-align: end;
 }
 
 .footer a:hover,
@@ -78,7 +84,7 @@ a:focus {
 }
 
 @media (max-width: 600px) {
-  .footer span.hidden {
+  .hide-on-mobile {
     display: none;
   }
 }

@@ -16,8 +16,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="main">
-        <div className="wrapper primary-bg">
+      <main className="main scroll-snap">
+        <div className="wrapper snap center primary-bg">
           <div>
             <h1 className="title">Hi, I&apos;m Michael.</h1>
             <div className={rotate['rw-wrapper']}>
@@ -31,26 +31,31 @@ const Home: NextPage = () => {
               </p>
             </div>
           </div>
-          <div className="center">
+        </div>
+
+        <div className={'wrapper snap center secondary-bg'}>
+          <h2 className="description">About me will go here...</h2>
+          <div className="center hide-on-mobile">
             <Image
               className="headshot"
               src={Headshot}
               alt="Michael Aleksa"
-              // layout="responsive"
               height={450}
               width={450}
             />
           </div>
         </div>
 
-        <div className={'wrapper center secondary-bg'}>
-          <h2 className="description">Experience will go here</h2>
+        <div className="wrapper snap center primary-bg">
+          <div>
+            <h2 className="description">Experience will go here...</h2>
+          </div>
         </div>
       </main>
 
-      <footer className="footer primary-bg">
+      <footer className="footer secondary-bg">
         <span>Built with Next.js and Typescript</span>
-        <span className="hidden">&nbsp;--&nbsp;</span>
+        <span className="hide-on-mobile">&nbsp;--&nbsp;</span>
         <a
           href="https://github.com/MikeAleksa"
           target="_blank"
