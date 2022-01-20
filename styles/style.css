@@ -1,0 +1,110 @@
+:root {
+  --primary: peachpuff;
+  --secondary: peachpuff;
+  --link-primary: #777777;
+  --primary-bg: #f5f5f7;
+  --secondary-bg: #ffffff;
+}
+
+/* * * * * * * * * * * * *
+/*     COLOR SCHEME      *
+ * * * * * * * * * * * * */
+
+.primary-bg {
+  background-color: var(--primary-bg);
+}
+
+.secondary-bg {
+  background-color: var(--secondary-bg);
+}
+
+html {
+  background-color: var(--primary-bg);
+}
+
+/* * * * * * * * * * * * *
+/*        LAYOUT         *
+ * * * * * * * * * * * * */
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  border-top: 0.5px solid var(--secondary-bg);
+}
+
+.footer a:hover,
+a:active,
+a:focus {
+  color: var(--link-primary);
+}
+
+@media (max-width: 600px) {
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    padding: 2rem 0;
+    border-top: 0.5px solid var(--secondary-bg);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer span.hidden {
+    display: none;
+  }
+}
+
+/* * * * * * * * * * * * *
+/*        CONTENT        *
+ * * * * * * * * * * * * */
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.headshot {
+  background-color: var(--primary);
+  border-radius: 50%;
+}
