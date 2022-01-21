@@ -176,9 +176,7 @@ html {
 .contact-text a {
   color: var(--inverted-text);
 }
-.contact-text a:hover,
-a:active,
-a:focus {
+.contact-text a:hover {
   color: var(--link-inverted);
 }
 
@@ -243,9 +241,7 @@ a:focus {
 .footer-text a {
   color: var(--link-inverted);
 }
-.footer-text a:hover,
-a:active,
-a:focus {
+.footer-text a:hover {
   color: var(--link-inverted-hover);
 }
 
@@ -259,9 +255,7 @@ a:focus {
 .footer-accent-text a {
   color: var(--inverted-text);
 }
-.footer-accent-text a:hover,
-a:active,
-a:focus {
+.footer-accent-text a:hover {
   color: var(--link-inverted-accent);
 }
 

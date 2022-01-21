@@ -1,9 +1,23 @@
 const Footer = () => (
   <footer className="footer inverted">
     <div className={'contact-text footer-grid'}>
-      <a>AngelList</a>
-      <a>GitHub</a>
-      <a>LinkedIn</a>
+      <a
+        href="https://angel.co/u/michael-aleksa"
+        target="_blank"
+        rel="noreferrer"
+      >
+        AngelList
+      </a>
+      <a href="https://github.com/mikealeksa" target="_blank" rel="noreferrer">
+        GitHub
+      </a>
+      <a
+        href="https://www.linkedin.com/in/michael-aleksa/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        LinkedIn
+      </a>
     </div>
     <div>
       <p
@@ -26,7 +40,7 @@ const Footer = () => (
         &nbsp;on Github
       </p>
       <p className="footer-accent-text">
-        <a>Hire Me</a>
+        <a href="mailto:michael@michaelaleksa.com">Hire Me</a>
       </p>
       <p>&copy; 2022 Michael Aleksa, All Rights Reserved</p>
     </div>
