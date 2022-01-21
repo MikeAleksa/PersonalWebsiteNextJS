@@ -1,12 +1,13 @@
 interface Props {
   entity: string
+  link: string
   position: string
   timeframe: string
   lastItem?: boolean
 }
 
 const Experience = (props: Props) => {
-  const { entity, position, timeframe, lastItem = false } = props
+  const { entity, link, position, timeframe, lastItem = false } = props
   return (
     <div
       className={
@@ -14,11 +15,13 @@ const Experience = (props: Props) => {
         (lastItem ? ' experience-item-layout-last' : '')
       }
     >
-      <p className="experience-position description-light"># {position}</p>
-      <p className="experience-entity description">
-        {entity}
-        <span className="experience-timeframe description">{timeframe}</span>
-      </p>
+      <a href={link} target="_blank" rel="noreferrer">
+        <p className="experience-position description-light"># {position}</p>
+        <p className="experience-entity description">
+          {entity}
+          <span className="experience-timeframe description">{timeframe}</span>
+        </p>
+      </a>
     </div>
   )
 }

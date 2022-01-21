@@ -6,8 +6,9 @@ const TypingText = () => (
       options={{
         strings: [
           'Full-Stack Web Developer',
-          'Machine Learning Practitioner',
-          'DevOps and Cloud Engineer',
+          'DevOps Practitioner',
+          'Machine Learning Engineer',
+          'Cloud Engineer',
           'Software Development Generalist',
         ],
         cursor: '',

@@ -12,7 +12,7 @@ body {
 
 a {
   color: inherit;
-  /* cursor: pointer; */
+  cursor: pointer;
   text-decoration: none;
   transition: color 0.25s;
 }
@@ -54,10 +54,12 @@ a {
   background-color: var(--inverted-bg);
   color: var(--inverted-text);
 }
-.inverted a:hover,
-a:active,
-a:focus {
+.inverted a:hover {
   color: var(--link-inverted);
+}
+.inverted a:active,
+.inverted a:focus {
+  color: var(--inverted-text);
 }
 
 html {
@@ -156,6 +158,16 @@ html {
 @media (max-width: 600px) {
   .hide-on-mobile {
     display: none;
+  }
+}
+
+.welcome-layout {
+  margin: 25vh auto auto auto;
+}
+
+@media (max-height: 699px) and (max-width: 600px) {
+  .welcome-layout {
+    margin: 20vh auto auto auto;
   }
 }
 
@@ -344,5 +356,32 @@ html {
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+
+.experience-item-layout a:not(:hover) {
+  visibility: none;
+  animation: text-unpop 0.5s forwards;
+}
+
+.experience-item-layout a:hover,
+.experience-item-layout-last a:hover {
+  animation: text-pop 0.5s forwards;
+}
+
+@keyframes text-pop {
+  0% {
+    text-indent: 0rem;
+  }
+  100% {
+    text-indent: 0.5rem;
+  }
+}
+@keyframes text-unpop {
+  0% {
+    text-indent: 0.5rem;
+  }
+  100% {
+    text-indent: 0rem;
   }
 }
