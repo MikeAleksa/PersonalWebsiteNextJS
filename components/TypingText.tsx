@@ -1,5 +1,4 @@
 import Typewriter from 'typewriter-effect'
-import cursor from '../styles/Cursor.module.css'
 
 const TypingText = () => (
   <div className="description">
@@ -12,7 +11,7 @@ const TypingText = () => (
           'Software Development Generalist',
         ],
         cursor: '',
-        cursorClassName: cursor.cursor,
+        cursorClassName: 'cursor',
         autoStart: true,
         loop: true,
         skipAddStyles: true,

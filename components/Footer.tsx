@@ -1,5 +1,5 @@
 const Footer = () => (
-  <footer className="footer inverted">
+  <footer className="footer snap-end inverted">
     <div className={'contact-text footer-grid'}>
       <a
         href="https://angel.co/u/michael-aleksa"

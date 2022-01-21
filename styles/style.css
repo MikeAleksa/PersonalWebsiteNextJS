@@ -90,7 +90,33 @@ html {
   width: 100%;
   margin: 0 auto;
   padding: 4rem 2rem;
+}
+
+.snap {
   scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.snap-end {
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
+}
+
+.wrapper-grow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+.wrapper-grow::after {
+  content: '';
+  position: relative;
+  bottom: -2rem;
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
 }
 
 .center {
@@ -106,7 +132,6 @@ html {
   width: 100%;
   margin: 0 auto;
   padding: 6rem 4rem 3rem 4rem;
-  scroll-snap-align: end;
 }
 
 .footer-grid {
@@ -134,6 +159,44 @@ html {
   }
 }
 
+.experience-item-layout {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 1rem;
+  border-bottom: 1px solid var(--primary-text);
+}
+
+.experience-item-layout-last {
+  border-bottom: none !important;
+}
+
+@media (max-width: 650px) {
+  .experience-item-layout {
+    width: 100%;
+  }
+}
+
+.experience-entity {
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: left !important;
+  margin: 0 !important;
+}
+
+.experience-position {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.experience-timeframe {
+  float: right;
+  text-align: right !important;
+  margin: 1rem 1rem 0 auto !important;
+}
+
 /* * * * * * * * * * * * *
 /*        CONTENT        *
  * * * * * * * * * * * * */
@@ -157,6 +220,14 @@ html {
   margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 0.25rem;
+}
+
+.description-light {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  font-size: 0.75rem;
   font-weight: 200;
   letter-spacing: 0.25rem;
 }
@@ -262,4 +333,16 @@ html {
 .headshot {
   background-color: var(--primary-accent);
   border-radius: 50%;
+}
+
+.cursor {
+  animation: blink 0.5s step-end infinite alternate;
+  border-right: 1.2rem solid;
+  font-size: 1.5rem;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }

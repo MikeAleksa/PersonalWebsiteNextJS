@@ -1,6 +1,6 @@
 import TypingText from './TypingText'
 
-const welcomeStyle = { margin: '25vh auto auto auto' }
+const welcomeStyle = { margin: '20vh auto auto auto' }
 
 const Welcome = () => (
   <div style={welcomeStyle}>

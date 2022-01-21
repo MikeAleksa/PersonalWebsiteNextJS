@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <div className="wrapper snap center primary-bg">
           <Welcome />
         </div>
-        <div className={'wrapper snap center secondary-bg'}>
+        <div className={'wrapper-grow snap center secondary-bg'}>
           <Experience />
         </div>
         <div className="wrapper snap center primary-bg">
