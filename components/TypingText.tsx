@@ -6,10 +6,10 @@ const TypingText = () => (
     <Typewriter
       options={{
         strings: [
-          'Full-Stack Web Development',
-          'Machine Learning',
-          'DevOps',
-          'Cloud Engineering',
+          'Full-Stack Web Developer',
+          'Machine Learning Practitioner',
+          'DevOps and Cloud Engineer',
+          'Software Development Generalist',
         ],
         cursor: '',
         cursorClassName: cursor.cursor,

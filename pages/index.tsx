@@ -18,9 +18,15 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="main scroll-snap">
-        <Welcome />
-        <AboutMe />
-        <Experience />
+        <div className="wrapper snap center primary-bg">
+          <Welcome />
+        </div>
+        <div className={'wrapper snap center secondary-bg'}>
+          <Experience />
+        </div>
+        <div className="wrapper snap center primary-bg">
+          <AboutMe />
+        </div>
       </main>
 
       <Footer />
