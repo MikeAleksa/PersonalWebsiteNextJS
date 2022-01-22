@@ -8,11 +8,16 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Michael Aleksa • Software Engineer</title>
+        <title>Michael Aleksa</title>
         <meta
           name="description"
-          content="Software Engineer from New York, NY"
+          content="Michael Aleksa is a software Engineer working remotely from New York, NY. Currently at Vocal Clarity and previously at EcoLong."
         />
+        <meta
+          name="keywords"
+          content="Michael Aleksa, software engineering, full-stack development, backend development, front-end development, machine learning, cloud engineering, devops, mlops"
+        />
+        <meta name="author" content="Michael Aleksa"></meta>
         <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />
       </Head>
 
