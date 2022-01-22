@@ -31,7 +31,7 @@ const Footer = () => (
       <p>
         Built with Next.js and Typescript. See the&nbsp;
         <a
-          href="https://github.com/MikeAleksa"
+          href="https://github.com/MikeAleksa/PersonalWebsiteNextJS"
           target="_blank"
           rel="noopener noreferrer"
         >
