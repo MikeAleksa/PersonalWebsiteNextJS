@@ -37,7 +37,7 @@ const Footer = () => (
         >
           source code
         </a>
-        &nbsp;on Github
+        &nbsp;on Github.
       </p>
       <p className="footer-accent-text">
         <a href="mailto:michael@michaelaleksa.com">Contact Me</a>

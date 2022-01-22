@@ -8,7 +8,7 @@ const TypingText = () => (
           'Full-Stack Web Developer',
           'DevOps Practitioner',
           'Machine Learning Engineer',
-          'Cloud Engineer',
+          'Cloud Architect',
           'Software Development Generalist',
         ],
         cursor: '',
