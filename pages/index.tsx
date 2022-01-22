@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import AboutMe from '../components/AboutMe'
 import Experience from '../components/Experience'
 import Footer from '../components/Footer'
 import Welcome from '../components/Welcome'
@@ -23,9 +22,6 @@ const Home: NextPage = () => {
         </div>
         <div className={'wrapper-grow snap center secondary-bg'}>
           <Experience />
-        </div>
-        <div className="wrapper snap center primary-bg">
-          <AboutMe />
         </div>
       </main>
 

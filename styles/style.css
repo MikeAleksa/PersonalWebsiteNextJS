@@ -345,11 +345,6 @@ html {
   color: var(--link-inverted-accent);
 }
 
-.headshot {
-  background-color: var(--primary-accent);
-  border-radius: 50%;
-}
-
 .cursor {
   animation: blink 0.5s step-end infinite alternate;
   border-right: 1.2rem solid;
