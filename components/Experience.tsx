@@ -1,23 +1,23 @@
 import ExperienceItem from './ExperienceItem'
 
 const Experience = () => (
-  <div>
+  <div className="experience-layout">
     <ExperienceItem
       entity="Vocal Clarity"
       link="https://www.vocalclarity.ai"
-      position="Lead Software Engineer, ML Engineer, DevOps"
+      position="Lead Software Engineer, ML &amp; DevOps"
       timeframe="/21-"
     />
     <ExperienceItem
       entity="EcoLong"
       link="https://www.eco-long.com"
-      position="Full-Stack, DevOps"
+      position="Full-Stack &amp; DevOps"
       timeframe="/21"
     />
     <ExperienceItem
       entity="Vocal Clarity"
       link="https://www.vocalclarity.ai"
-      position="Software Engineer, ML Engineer"
+      position="Software Engineer"
       timeframe="/20-21"
     />
     <ExperienceItem
