@@ -70,10 +70,8 @@ html {
 /*        LAYOUT         *
  * * * * * * * * * * * * */
 
-@media (min-width: 500) {
-  html {
-    scroll-snap-type: y mandatory;
-  }
+html {
+  scroll-snap-type: y mandatory;
 }
 
 @media (max-width: 499) {
