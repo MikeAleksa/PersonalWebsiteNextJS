@@ -70,8 +70,16 @@ html {
 /*        LAYOUT         *
  * * * * * * * * * * * * */
 
-html {
-  scroll-snap-type: y mandatory;
+@media (min-width: 500) {
+  html {
+    scroll-snap-type: y mandatory;
+  }
+}
+
+@media (max-width: 499) {
+  html {
+    scroll-snap-type: y none;
+  }
 }
 
 .main {
