@@ -71,12 +71,12 @@ html {
  * * * * * * * * * * * * */
 
 html {
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y none;
 }
 
-@media (max-width: 499) {
+@media (min-width: 499px) {
   html {
-    scroll-snap-type: y none;
+    scroll-snap-type: y mandatory;
   }
 }
 
