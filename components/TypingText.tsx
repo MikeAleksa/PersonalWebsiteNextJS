@@ -5,7 +5,7 @@ const TypingText = () => (
     <Typewriter
       options={{
         strings: [
-          'Full-Stack Web Developer',
+          'Backend Engineer',
           'DevOps Practitioner',
           'Machine Learning Engineer',
           'Cloud Architect',

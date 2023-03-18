@@ -3,10 +3,16 @@ import ExperienceItem from './ExperienceItem'
 const Experience = () => (
   <div className="experience-layout">
     <ExperienceItem
+      entity="Actuate"
+      link="https://actuate.ai"
+      position="Software Engineer, ML &amp; DevOps"
+      timeframe="/22-"
+    />
+    <ExperienceItem
       entity="Vocal Clarity"
       link="https://www.vocalclarity.ai"
       position="Lead Software Engineer, ML &amp; DevOps"
-      timeframe="/21-"
+      timeframe="/21-22"
     />
     <ExperienceItem
       entity="EcoLong"
