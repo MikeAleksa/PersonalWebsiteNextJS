@@ -1,5 +1,5 @@
 {
-  "image": "mtaleksa/zsh-dev:node-17-alpine",
+  "image": "node",
   "forwardPorts": [3000],
   "extensions": [
     "rbbit.typescript-hero",

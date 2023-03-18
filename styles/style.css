@@ -138,6 +138,7 @@ html {
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  min-height: max(500px, 40vh);
   margin: 0 auto;
   padding: 6rem 4rem 3rem 4rem;
 }

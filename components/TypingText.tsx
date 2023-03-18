@@ -5,10 +5,11 @@ const TypingText = () => (
     <Typewriter
       options={{
         strings: [
-          'Backend Engineer',
+          'Software Engineer',
           'DevOps Practitioner',
           'Machine Learning Engineer',
           'Cloud Architect',
+          'Backend Engineer',
           'Software Development Generalist',
         ],
         cursor: '',
