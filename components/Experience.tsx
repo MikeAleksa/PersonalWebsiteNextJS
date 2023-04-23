@@ -5,7 +5,7 @@ const Experience = () => (
     <ExperienceItem
       entity="Actuate"
       link="https://actuate.ai"
-      position="Software Engineer, ML &amp; DevOps"
+      position="Senior Software Engineer, ML, Scaling, &amp; DevOps"
       timeframe="/22-"
     />
     <ExperienceItem
